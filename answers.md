@@ -1,3 +1,5 @@
+Panda 1
+
 1.  var portrait-pic = document.querySelector('.highlight > img');
 portraitPic.src = 'https://cnet2.cbsistatic.com/img/PgybSJ1LaH5YXM66n1dP8APaph8=/fit-in/970x0/2016/12/02/aead5046-63ba-404b-8263-891851674ac1/pandaironman.jpg'
 
@@ -40,3 +42,30 @@ PandaTheBear.textContent = 'Captain CoolPants'
 
 14. var 今天 = document.querySelector('.bio-info');
     今天.hidden = true;
+
+
+
+Panda 2
+
+1.  var timeTraveller = document.querySelector('.bar-default:nth-child(3n)');
+    timeTraveller.remove()
+
+1.  var pikaPic = document.querySelector('#right-image > img');
+    var pipika = pikaPic.cloneNode(true);
+    var portfolioer = document.querySelector('.portfolio-container');
+    portfolioer.appendChild(pipika);
+
+2.  for(var i = 0; i < 10; i++) { portfolioer.appendChild(pikaPic.cloneNode(true)); }
+
+3.  var listItem = document.createElement('li');
+    var leftSpan = document.createElement('span');
+    var lastUpdated = document.createTextNode('Page last updated on');
+    leftSpan.appendChild(lastUpdated);
+    listItem.appendChild(leftSpan);
+    
+
+    var rightSpan = document.createElement('span');
+    var newDate = new Date();
+    var dateText = document.createTextNode(newDate);
+    rightSpan.appendChild(dateText);
+    listItem.appendChild(rightSpan);
